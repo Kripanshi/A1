@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Additional styling (optional) */
+        .hero-bg {
+            background-image: url('images/your-image.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">Kripanshi Patel</a>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="hover:text-gray-400">About</a></li>
+                <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
+                <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg h-screen flex justify-center items-center text-center text-white bg-cover bg-center">
+        <div class="bg-black bg-opacity-50 p-8">
+            <h1 class="text-5xl font-extrabold mb-4">Hello, I'm Kripanshi</h1>
+            <p class="text-lg">I'm a Web Developer passionate about building great applications.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class=" bg-white text-center">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="py-20 text-3xl font-semibold mb-4">About Me</h2>
+            <p class="text-xl text-gray-700 max-w-3xl mx-auto">Hi, I'm Kripanshi Patel, a web developer with a passion for building beautiful, 
+                functional websites. I specialize in front-end development using technologies like HTML, CSS, JavaScript, and React, and I also
+                 enjoy learning about back-end development.I am a passionate web developer with experience in building responsive websites 
+                and web applications. 
+            </p>
+            <p class="text-xl text-gray-700 max-w-3xl mx-auto">I believe in writing code that is both efficient and easy to maintain, ensuring that every project is not only functional but also scalable. My goal is always to create web experiences that are smooth, intuitive, and enjoyable for users. I enjoy working on both the design and development aspects of a project, from making sure a site looks great to ensuring that it performs well across all devices.</p>
+            <p class="text-xl text-gray-700 max-w-3xl mx-auto">I'm always exploring new tools and learning the latest trends in web development to keep improving my skills. Whether you’re looking to build a simple website or a complex web application, I’m excited to help bring your ideas to life. Let’s connect and build something amazing together!</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50 text-center">
+        <div class=" py-20 max-w-6xl mx-auto">
+            <h2 class=" text-3xl font-semibold mb-8">My Projects</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images/project1-image.png" alt="Project 1" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold">Amazon Clone</h3>
+                    <p class="text-gray-700">It provides a multi-vendor e-commerce marketplace via which the vendors and the users can communicate and sellbuy products.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images/project2-image.png" alt="Project 2" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold">E-vehicle on rent</h3>
+                    <p class="text-gray-700">Renting electric vehicles offers a way to experience electric mobility without the commitment of ownership, with options ranging from short-term-rentals to longer-term-subscriptions, catering to various needs and budgets.</p>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images/project3-image.png" alt="Project 3" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold">Weather</h3>
+                    <p class="text-gray-700">It is a software application that provides weather information for given location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white text-center">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-semibold mb-4">Contact Me</h2>
+            <form action="#" method="POST" class="max-w-xl mx-auto">
+                <input type="text" name="name" placeholder="Your Name" class="w-full p-3 mb-4 border rounded-md">
+                <input type="email" name="email" placeholder="Your Email" class="w-full p-3 mb-4 border rounded-md">
+                <textarea name="message" placeholder="Your Message" class="w-full p-3 mb-4 border rounded-md" rows="5"></textarea>
+                <button type="submit" class="bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto text-center">
+            <p>&copy; 2025 Kripanshi Patel. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
